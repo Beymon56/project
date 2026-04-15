@@ -1,0 +1,11 @@
+#version 410
+
+in vec3 fragCoord;
+
+out vec4 out_Color;
+
+void main(){
+
+    out_Color = vec4(fragCoord.xyz, 1.0);
+
+}
